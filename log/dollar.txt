@@ -1,0 +1,44 @@
+ 2021-01-12 17:11:11,171 - DEBUG - Start of program
+ 2021-01-12 17:11:11,172 - DEBUG - __init__
+ 2021-01-12 17:11:11,172 - DEBUG - amount: 5
+ 2021-01-12 17:11:11,172 - DEBUG - self.amount: 5
+ 2021-01-12 17:11:11,172 - DEBUG - times
+ 2021-01-12 17:11:11,172 - DEBUG - multipliear: 2
+ 2021-01-12 17:11:11,172 - DEBUG - self.amount: 5
+ 2021-01-12 17:11:11,172 - DEBUG - self.amount: 10
+ 2021-01-12 17:11:11,172 - DEBUG - times
+ 2021-01-12 17:11:11,173 - DEBUG - multipliear: 3
+ 2021-01-12 17:11:11,173 - DEBUG - self.amount: 10
+ 2021-01-12 17:11:11,173 - DEBUG - self.amount: 30
+ 2021-01-12 17:11:12,422 - DEBUG - Start of program
+ 2021-01-12 17:11:12,422 - DEBUG - __init__
+ 2021-01-12 17:11:12,422 - DEBUG - amount: 5
+ 2021-01-12 17:11:12,422 - DEBUG - self.amount: 5
+ 2021-01-12 17:11:12,422 - DEBUG - times
+ 2021-01-12 17:11:12,422 - DEBUG - multipliear: 2
+ 2021-01-12 17:11:12,422 - DEBUG - self.amount: 5
+ 2021-01-12 17:11:12,423 - DEBUG - self.amount: 10
+ 2021-01-12 17:11:12,423 - DEBUG - times
+ 2021-01-12 17:11:12,423 - DEBUG - multipliear: 3
+ 2021-01-12 17:11:12,423 - DEBUG - self.amount: 10
+ 2021-01-12 17:11:12,423 - DEBUG - self.amount: 30
+ 2021-01-12 17:12:53,018 - DEBUG - Start of program
+ 2021-01-12 17:12:53,019 - DEBUG - __init__
+ 2021-01-12 17:12:53,019 - DEBUG - amount: 5
+ 2021-01-12 17:12:53,019 - DEBUG - self.amount: 5
+ 2021-01-12 17:12:53,019 - DEBUG - times
+ 2021-01-12 17:12:53,019 - DEBUG - multipliear: 2
+ 2021-01-12 17:12:53,020 - DEBUG - self.amount: 5
+ 2021-01-12 17:12:53,020 - DEBUG - self.amount: 10
+ 2021-01-12 17:12:53,020 - DEBUG - times
+ 2021-01-12 17:12:53,020 - DEBUG - multipliear: 3
+ 2021-01-12 17:12:53,020 - DEBUG - self.amount: 10
+ 2021-01-12 17:12:53,020 - DEBUG - self.amount: 30
+ 2021-01-12 17:15:09,803 - DEBUG - Start of program
+ 2021-01-12 17:15:09,803 - DEBUG - __init__
+ 2021-01-12 17:15:09,803 - DEBUG - amount: 5
+ 2021-01-12 17:15:09,803 - DEBUG - self.amount: 5
+ 2021-01-12 17:21:42,932 - DEBUG - Start of program
+ 2021-01-12 17:21:42,932 - DEBUG - __init__
+ 2021-01-12 17:21:42,932 - DEBUG - amount: 5
+ 2021-01-12 17:21:42,933 - DEBUG - self.amount: 5

@@ -1,10 +1,39 @@
-### 0.2
+## To Do: :dart:
+`test:`
+* $5 + 10 CHF = $10 se a taxa é 2:1
+* Tornar “quantidade” privada
+* Arredondamento de dinheiro
+* equals()
+* hashCode()
+
+---
+
+### 0.3 Equality for all
+`test:` 
+
+### 0.2 Degenerate Objects
+`test:` *Efeitos colaterais em Dollar* :heavy_check_mark:
+
+duas das três estratégias que conheço para chegar rapidamente ao verde:
+* engane-o: retorne uma constante e 
+    gradualmente substitua constantes por variáveis até ter o código real.
+* use implementação óbvia: codifique a implementação real.
+
+:heavy_plus_sign: logging
+
+:heavy_minus_sign: requirements
+
+### 0.1 Dependency and Duplication
+`test:` *$5 * 2 = $10* :heavy_check_mark:
+
 refactor
 
-referência
-* rm: Wazlawick, Raul Sidnei. Introdução a Algoritmos e Programação com Python: Uma abordagem dirigida por testes. Elsevier, 2017 
+referência:
+* :heavy_minus_sign: Wazlawick, Raul Sidnei. Introdução a Algoritmos e Programação com Python: Uma abordagem dirigida por testes. Elsevier, 2017 
 
-### 0.1
+---
+
+### 0.0.1
 assertion: verificar se o código não está fazendo nada obviamente incorreto.
 * a palavra-chave assert;
 * uma condição (ou seja, uma expressão avaliada como True ou False);
