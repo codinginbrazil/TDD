@@ -1,10 +1,15 @@
+### 0.2
+refactor
+
+referência
+* rm: Wazlawick, Raul Sidnei. Introdução a Algoritmos e Programação com Python: Uma abordagem dirigida por testes. Elsevier, 2017 
+
 ### 0.1
 assertion: verificar se o código não está fazendo nada obviamente incorreto.
 * a palavra-chave assert;
 * uma condição (ou seja, uma expressão avaliada como True ou False);
 * uma vírgula;
 * uma string a ser exibida quando a condição for False.
-
 
 ritmo do desenvolvimento guiado por testes
 1. Adicionar um teste rapidamente.
