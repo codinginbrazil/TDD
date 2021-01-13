@@ -5,9 +5,19 @@
 * hashCode()
 * Igualdade de null
 * Igualdade de objeto
+* Duplicação de Dólar/Franco
+* Igualdade comum
+* Multiplicação comum
+
 
 
 ---
+
+
+### 0.5 
+`test:` *5 CHF * 2 = 10 CHF* :heavy_check_mark:
+
+feat: Franc
 
 ### 0.4 Privacy
 * Tornar “amount” privada / métodos de acesso 
@@ -16,6 +26,14 @@
 refactor: test_multiplication
 
 *test_dollar()*
+
+docs:
+* Usamos uma funcionalidade recém-desenvolvida para melhorar um teste
+* Percebemos que, se dois testes falham de uma vez, estamos arruinados
+* Prosseguimos a despeito do risco
+* Usamos uma nova funcionalidade em um objeto 
+    sob teste para reduzir o acoplamento entre os testes e o código
+
 
 ### 0.3 Equality for all
 `test:` equals() :heavy_check_mark:

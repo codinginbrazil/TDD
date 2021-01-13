@@ -12,14 +12,14 @@ logging.debug('Start of program')
 class Dollar(object):
     
     def __init__(self, amount):
-        self.amount = amount
+        self.amount = amount 
         
         logging.debug('__init__')
         logging.debug('amount: ' + str(amount))
         logging.debug('self.amount: ' + str(self._amount))
      
+     
     @property
-    # https://docs.python.org/3/library/functions.html#property
     def amount(self):
         return self._amount 
     
@@ -42,7 +42,6 @@ class Dollar(object):
 
 
     def dollar(self, amount) -> None:
-        # self.amount(amount)
         self.amount = amount
         
         logging.debug('dollar')
