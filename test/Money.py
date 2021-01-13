@@ -23,10 +23,10 @@ class Money(object):
         try:
             return self.amount == object.amount
         except:
-            print('Error: Object is not a Dollar')
+            print('Error: Object is not a Money')
 
 
-    def dollar(self, amount) -> None:
+    def money(self, amount) -> None:
         self.amount = amount
 
 

@@ -6,21 +6,26 @@
 * Igualdade de null
 * Igualdade de objeto
 * Duplicação de Dólar/Franco
-* Igualdade comum
-* Multiplicação comum
 
+* Multiplicação comum
 
 
 ---
 
-### 0.6
-feat: Money
+### 0.7 refactor: igualdade comum
+Reconciliamos duas implementações – equals() – antes de eliminar aquela
+redundante
+
+### 0.6 feat: Money Class
+Movemos passo a passo código comum de uma classe (Dollar) para uma
+superclasse (Money)
+
+Fizemos de uma segunda classe (Franc) uma subclasse
 
 
-### 0.5 
+### 0.5 feat: Franc Class
 `test:` *5 CHF * 2 = 10 CHF* :heavy_check_mark:
 
-feat: Franc
 
 ### 0.4 Privacy
 * Tornar “amount” privada / métodos de acesso 
