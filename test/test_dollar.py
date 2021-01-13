@@ -1,6 +1,6 @@
 import logging
 
-from src.Dollar import Dollar
+from Dollar import Dollar
 
 
 logging.basicConfig(filename=('log/test_dollar.txt'),

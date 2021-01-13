@@ -1,4 +1,4 @@
-from src.Franc import Franc
+from Franc import Franc
 
 
 def test_multiplication():

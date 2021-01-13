@@ -13,6 +13,9 @@
 
 ---
 
+### 0.6
+feat: Money
+
 
 ### 0.5 
 `test:` *5 CHF * 2 = 10 CHF* :heavy_check_mark:
@@ -66,7 +69,7 @@ referência:
 
 ---
 
-### 0.0.1
+### 0.0.1 reference
 assertion: verificar se o código não está fazendo nada obviamente incorreto.
 * a palavra-chave assert;
 * uma condição (ou seja, uma expressão avaliada como True ou False);
