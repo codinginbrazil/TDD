@@ -1,7 +1,6 @@
 ## To Do: :dart:
 `test:`
 * $5 + 10 CHF = $10 se a taxa é 2:1
-* Tornar “quantidade” privada
 * Arredondamento de dinheiro
 * hashCode()
 * Igualdade de null
@@ -11,7 +10,12 @@
 ---
 
 ### 0.4 Privacy
+* Tornar “amount” privada / métodos de acesso 
+    * [property](https://docs.python.org/3/library/functions.html#property)
+    
 refactor: test_multiplication
+
+*test_dollar()*
 
 ### 0.3 Equality for all
 `test:` equals() :heavy_check_mark:

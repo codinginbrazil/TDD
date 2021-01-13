@@ -25,3 +25,10 @@ def test_equality():
     
     four.dollar(4)
     assert False == five.equals(four)
+
+
+def test_dollar():
+    four = Dollar(6)
+    four.dollar(4)
+    
+    assert four.equals(Dollar(4))

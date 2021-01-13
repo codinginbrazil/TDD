@@ -16,7 +16,23 @@ class Dollar(object):
         
         logging.debug('__init__')
         logging.debug('amount: ' + str(amount))
-        logging.debug('self.amount: ' + str(self.amount))
+        logging.debug('self.amount: ' + str(self._amount))
+     
+    @property
+    # https://docs.python.org/3/library/functions.html#property
+    def amount(self):
+        return self._amount 
+    
+    
+    @amount.setter
+    def amount(self, amount):
+        self._amount = amount
+        
+  
+    @amount.deleter
+    def amount(self):
+        del self._amount
+        
         
     def equals(self, object) -> bool:
         try:
@@ -24,7 +40,9 @@ class Dollar(object):
         except:
             logging.WARNING('Error: Object is not a Dollar')
 
+
     def dollar(self, amount) -> None:
+        # self.amount(amount)
         self.amount = amount
         
         logging.debug('dollar')
