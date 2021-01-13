@@ -10,6 +10,8 @@
 
 ---
 
+### 0.4 Privacy
+refactor: test_multiplication
 
 ### 0.3 Equality for all
 `test:` equals() :heavy_check_mark:
