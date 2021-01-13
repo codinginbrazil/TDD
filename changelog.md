@@ -3,13 +3,22 @@
 * $5 + 10 CHF = $10 se a taxa é 2:1
 * Tornar “quantidade” privada
 * Arredondamento de dinheiro
-* equals()
 * hashCode()
+* Igualdade de null
+* Igualdade de objeto
+
 
 ---
 
+
 ### 0.3 Equality for all
-`test:` 
+`test:` equals() :heavy_check_mark:
+* percebemos que nosso padrão de projeto (Value Object) sugeria uma operação
+* testamos para aquela operação
+* implementamos de uma forma simples
+* não refatoramos imediatamente, mas, em vez disso, testamos mais
+* refatoramos para capturar os dois casos de uma só vez
+
 
 ### 0.2 Degenerate Objects
 `test:` *Efeitos colaterais em Dollar* :heavy_check_mark:
