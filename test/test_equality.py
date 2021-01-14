@@ -10,3 +10,4 @@ def test_equality():
     
     assert False == (Franc(5).equals(Franc(6)))
     assert False == (Dollar(5).equals(Dollar(6)))
+    assert False == (Dollar(5).equals(Franc(6)))

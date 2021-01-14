@@ -12,7 +12,11 @@
 
 ---
 
-### 0.7 refactor: igualdade comum
+### 0.8 compare dollar to franc
+
+
+
+### 0.7 refactor: common equality
 Reconciliamos duas implementações – equals() – antes de eliminar aquela
 redundante
 
