@@ -12,8 +12,10 @@
 
 ---
 
-### 0.8 compare dollar to franc
+### 0.9 currency 
 
+
+### 0.8 compare dollar to franc
 
 
 ### 0.7 refactor: common equality
