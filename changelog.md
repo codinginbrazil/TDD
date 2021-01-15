@@ -12,6 +12,13 @@
 
 ---
 
+
+### 0.10 Bank class
+feat: 
+* bank
+* exchange rate
+* plus
+
 ### 0.9 currency 
 
 

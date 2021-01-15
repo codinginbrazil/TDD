@@ -13,7 +13,6 @@ def test_dollar():
     
 def test_franc():
     assert (Franc(5).equals(Franc(5)))
-    
     assert False == Franc(5).equals(Franc(6))
 
 
@@ -26,5 +25,6 @@ def test_money():
 
 
 def test_inter():
+    assert False == Dollar(5).equals(Franc(5))
     assert False == Dollar(5).equals(Franc(6))
 
