@@ -12,6 +12,8 @@
 
 ---
 
+### 0.11 exchange rate
+
 
 ### 0.10 Bank class
 feat: 
