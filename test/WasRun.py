@@ -7,9 +7,14 @@ class WasRun(TestCase):
         self.WasRun = None
 
 
-
     def test_method(self):
         self.WasRun = 1
+        
+        
+    def setUp(self):
+        self.wasRun= None
+        self.wasSetUp = 1
+
 
 
 if __name__ == "__main__":
