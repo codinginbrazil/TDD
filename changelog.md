@@ -1,4 +1,17 @@
-## To Do: :dart:
+
+
+### 0.2 
+* [x] Invoque o método teste
+* [] Invoque setUp primeiro
+* [] Invoque tearDown depois
+* [] Invoque tearDown mesmo se o método teste falhar
+* [] Rode múltiplos testes
+* [] Informe resultados coletados
+
+---
+
+### 0.11 currency conversion
+#### To Do: :dart:
 `test:`
 * $5 + 10 CHF = $10 se a taxa é 2:1
 * Arredondamento de dinheiro
@@ -6,14 +19,10 @@
 * Igualdade de null
 * Igualdade de objeto
 * Duplicação de Dólar/Franco
-
 * Multiplicação comum
 
-
----
-
-### 0.11 exchange rate
-
+`refactor`
+* novos testes
 
 ### 0.10 Bank class
 feat: 

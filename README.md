@@ -34,6 +34,13 @@ ponha os caminhos pecaminosos do passado recente atrás de você.
 Dê um passo para trás na correta e minuciosa trilha da integridade de software. 
 Remova a duplicação que você introduziu e chegue ao verde rapidamente.
 
+
+### 3A
+1. Arranje – Crie alguns objetos.
+2. Aja – Estimule-os.
+3. (Faça) Asserções – Verifique os resultados.
+
+
 ---
 
 ## Referência
