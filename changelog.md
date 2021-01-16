@@ -1,12 +1,17 @@
-
-
-### 0.2 Was Run
-* [x] Invoque o método teste
-* [x] Invoque setUp primeiro
+### 0.2.2 record
 * [] Invoque tearDown depois
 * [] Invoque tearDown mesmo se o método teste falhar
 * [] Rode múltiplos testes
 * [] Informe resultados coletados
+* [] String de registro em WasRun
+
+
+### 0.2.1 set up
+Invoque setUp primeiro
+
+### 0.2 Was Run
+Invoque o método teste
+
 
 ---
 

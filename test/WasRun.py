@@ -8,18 +8,20 @@ class WasRun(TestCase):
 
 
     def test_method(self):
-        self.WasRun = 1
-        
+        self.log= self.log + "testMethod "
+
         
     def setUp(self):
-        self.wasRun= None
-        self.wasSetUp = 1
+        self.log = "setUp "
+        
 
+    def tearDown(self):
+        self.log= self.log + "tearDown "
 
 
 if __name__ == "__main__":
     test= WasRun("test_method")
     print(test.WasRun)
-    # test.test_method()
-    test.run()
+    
+    # test.run()
     print(test.WasRun)
