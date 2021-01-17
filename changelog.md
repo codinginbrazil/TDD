@@ -1,7 +1,9 @@
-### 0.2.5 Rode múltiplos testes
+### 0.2.6
 * Invoque tearDown depois
 * Invoque tearDown mesmo se o método teste falhar
 * Capturar e informar erros em setUp
+
+### 0.2.5 run multiple tests
 
 ### 0.2.4 report failed tests
 

@@ -21,10 +21,3 @@ class WasRun(TestCase):
         
     def testBrokenMethod(self):
         raise Exception
-
-
-if __name__ == "__main__":
-    test= WasRun("test_method")
-    print(test.WasRun)
-    
-    print(test.WasRun)

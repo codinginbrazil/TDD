@@ -4,12 +4,8 @@ class TestCase(object):
     def __init__(self, name):
         self.name = name
         
-    def setUp(self):
-        pass
-    
         
-    def run(self):
-        result= TestResult()
+    def run(self, result):
         result.testStarted()
         self.setUp()
         
@@ -19,9 +15,12 @@ class TestCase(object):
         except:
             result.testFailed()
             
-        self.tearDown()    
-        return result
-
+        self.tearDown()
+        
+        
+    def setUp(self):
+        pass
+    
         
     def tearDown(self):
         pass
