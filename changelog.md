@@ -1,9 +1,18 @@
-### 0.2.2 record
+### 0.2.5 
 * [] Invoque tearDown depois
 * [] Invoque tearDown mesmo se o método teste falhar
 * [] Rode múltiplos testes
-* [] Informe resultados coletados
-* [] String de registro em WasRun
+
+
+### 0.2.4 report failed tests
+
+
+### 0.2.3 report collected results
+TestResult
+
+
+### 0.2.2 record
+String de registro em WasRun
 
 
 ### 0.2.1 set up
@@ -14,6 +23,7 @@ Invoque o método teste
 
 
 ---
+
 
 ### 0.11 currency conversion
 #### To Do: :dart:
