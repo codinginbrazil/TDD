@@ -1,7 +1,27 @@
-### 0.2.6
+### Features
+TestCase and WasRun
 * Invoque tearDown depois
 * Invoque tearDown mesmo se o método teste falhar
 * Capturar e informar erros em setUp
+
+Financial
+`test:`
+* $5 + 10 CHF = $10 se a taxa é 2:1
+* Arredondamento de dinheiro
+* hashCode()
+* Igualdade de null
+* Igualdade de objeto
+* Duplicação de Dólar/Franco
+* Multiplicação comum
+
+`refactor`
+* novos testes
+
+---
+
+
+### 0.2.6 refactor: testCaseTest 
+
 
 ### 0.2.5 run multiple tests
 
@@ -26,18 +46,6 @@ Invoque o método teste
 
 
 ### 0.11 currency conversion
-#### To Do: :dart:
-`test:`
-* $5 + 10 CHF = $10 se a taxa é 2:1
-* Arredondamento de dinheiro
-* hashCode()
-* Igualdade de null
-* Igualdade de objeto
-* Duplicação de Dólar/Franco
-* Multiplicação comum
-
-`refactor`
-* novos testes
 
 ### 0.10 Bank class
 feat: 
