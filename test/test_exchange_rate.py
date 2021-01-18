@@ -1,8 +1,5 @@
-from Money import Money
-from Franc import Franc
-from Dollar import Dollar
+from Financial import Money, Franc, Dollar, Bank
 
-from Bank import Bank
 
 def test_exchange_rate():
     assert Money(5).amount == Bank().exchange_rate(Franc(10))

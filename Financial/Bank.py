@@ -1,6 +1,6 @@
-from Money import Money
-from Franc import Franc
-from Dollar import Dollar
+from .Money import Money
+from .Franc import Franc
+from .Dollar import Dollar
 
 
 class Bank(object):

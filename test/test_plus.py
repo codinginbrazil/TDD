@@ -1,8 +1,4 @@
-from Money import Money
-from Franc import Franc
-from Dollar import Dollar
-
-from Bank import Bank
+from Financial import Money, Franc, Dollar, Bank
 
 
 def test_dollar():

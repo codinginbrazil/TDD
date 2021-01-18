@@ -1,6 +1,4 @@
-from Money import Money
-from Franc import Franc
-from Dollar import Dollar
+from Financial import Money, Franc, Dollar
 
 
 def test_dollar():

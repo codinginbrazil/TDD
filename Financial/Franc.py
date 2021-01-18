@@ -1,4 +1,4 @@
-from Money import Money
+from .Money import Money
 
 class Franc(Money):
     
