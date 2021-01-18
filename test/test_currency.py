@@ -1,24 +1,28 @@
+import unittest
+
 from Financial import Money, Franc, Dollar
 
 
-def test_dollar():
-    assert Dollar(10).equals_currency(Dollar(10))
-    assert Dollar(10).equals_currency(Dollar(15))
-    
-    
-def test_franc():
-    assert Franc(10).equals_currency(Franc(10))
-    assert Franc(10).equals_currency(Franc(15))
-    
+class Test_Currency(unittest.TestCase):
 
-def test_money():
-    assert Money(10).equals_currency(Money(10))
-    assert Money(10).equals_currency(Money(15))
-    
+    def test_dollar(self):
+        assert Dollar(10).equals_currency(Dollar(10))
+        assert Dollar(10).equals_currency(Dollar(15))
+        
+        
+    def test_franc(self):
+        assert Franc(10).equals_currency(Franc(10))
+        assert Franc(10).equals_currency(Franc(15))
+        
 
-def test_inter():
-    assert False == Dollar(10).equals_currency(Franc(10))
-    assert False == Dollar(10).equals_currency(Franc(15))
-    
-    assert False == Money(10).equals_currency(Franc(10))
-    assert False == Money(10).equals_currency(Franc(15))
+    def test_money(self):
+        assert Money(10).equals_currency(Money(10))
+        assert Money(10).equals_currency(Money(15))
+        
+
+    def test_inter(self):
+        self.assertFalse(Dollar(10).equals_currency(Franc(10)))
+        self.assertFalse(Dollar(10).equals_currency(Franc(15)))
+        
+        self.assertFalse(Money(10).equals_currency(Franc(10)))
+        self.assertFalse(Money(10).equals_currency(Franc(15)))

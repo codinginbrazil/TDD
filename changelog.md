@@ -19,6 +19,9 @@ Financial
 
 ---
 
+### 0.3.1 unit testing framework
+https://docs.python.org/3/library/unittest.html
+
 ### 0.3.0 chore 
 
 
