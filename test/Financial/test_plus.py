@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from Financial import Money, Franc, Dollar, Bank
 
 
@@ -19,4 +21,3 @@ def test_money():
 def test_simples():
     assert Money(10).amount == Bank().reduced(Money(
         Money(5).plus(5)))
-

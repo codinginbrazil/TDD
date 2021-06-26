@@ -1,4 +1,7 @@
-from .Money import Money
+#!/usr/bin/env python
+""" Dollar coin """
+
+from . import Money
 
 class Dollar(Money):
     

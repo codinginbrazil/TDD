@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import unittest
 
 from Financial import Money, Franc, Dollar
@@ -17,3 +19,7 @@ class Test_Multiplication(unittest.TestCase):
     def test_money(self):
         self.assertEqual(Money(10).amount, Money(5).times(2)) 
         self.assertEqual(Money(15).amount, Money(5).times(3)) 
+        
+        
+if __name__ == '__main__':
+    unittest.main()

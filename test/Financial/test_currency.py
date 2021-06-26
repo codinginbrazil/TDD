@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+"""Test for the money.equals_currency module."""
+
 import unittest
 
 from Financial import Money, Franc, Dollar
@@ -26,3 +29,7 @@ class Test_Currency(unittest.TestCase):
         
         self.assertFalse(Money(10).equals_currency(Franc(10)))
         self.assertFalse(Money(10).equals_currency(Franc(15)))
+        
+
+if __name__ == '__main__':
+  unittest.main()        

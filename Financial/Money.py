@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+""" Base coin """
+
 class Money(object):
     
     def __init__(self, amount):
@@ -78,3 +81,4 @@ class Money(object):
     @exchange_rate.deleter
     def exchange_rate(self):
         del self._exchange_rate
+        

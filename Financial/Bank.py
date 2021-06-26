@@ -1,6 +1,9 @@
-from .Money import Money
-from .Franc import Franc
-from .Dollar import Dollar
+#!/usr/bin/env python
+""" The Bank """
+
+from . import Money
+from . import Franc
+from . import Dollar
 
 
 class Bank(object):
@@ -32,5 +35,4 @@ class Bank(object):
             return coin.amount
         else: 
             return('Error: Currency not found')
-        
         
