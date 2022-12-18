@@ -1,0 +1,12 @@
+C:\Source\TDD\CShp_UnitTestMoq\Core\bin\Debug\net7.0\Core.deps.json
+C:\Source\TDD\CShp_UnitTestMoq\Core\bin\Debug\net7.0\Core.dll
+C:\Source\TDD\CShp_UnitTestMoq\Core\bin\Debug\net7.0\Core.pdb
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.dll
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\Core.pdb
+C:\Source\TDD\CShp_UnitTestMoq\Core\obj\Debug\net7.0\ref\Core.dll

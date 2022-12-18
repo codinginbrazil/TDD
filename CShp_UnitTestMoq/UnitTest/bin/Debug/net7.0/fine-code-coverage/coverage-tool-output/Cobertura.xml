@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.827586206896552" branch-rate="0.916666666666667" lines-covered="48" lines-valid="58" branches-covered="11" branches-valid="12" complexity="20" version="0" timestamp="1671315935">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="Aplication" line-rate="0.739130434782609" branch-rate="1" complexity="11">
+      <classes>
+        <class name="CShp_UnitTestMoq.Calculadora" filename="C:\Source\TDD\CShp_UnitTestMoq\Aplication\Calculadora.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="Calcular" signature="(...)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="10" hits="5" branch="false" />
+                <line number="13" hits="5" branch="true" condition-coverage="100% (8/8)" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="5" branch="false" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="5" branch="false" />
+            <line number="13" hits="5" branch="true" condition-coverage="100% (8/8)" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="5" branch="false" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="CShp_UnitTestMoq.MaquinaCalculadora" filename="C:\Source\TDD\CShp_UnitTestMoq\Aplication\MaquinaCalculadora.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Calcular" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="20" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="20" branch="false" />
+            <line number="12" hits="10" branch="false" />
+          </lines>
+        </class>
+        <class name="CShp_UnitTestMoq.Program" filename="C:\Source\TDD\CShp_UnitTestMoq\Aplication\Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Core" line-rate="0.571428571428571" branch-rate="1" complexity="3">
+      <classes>
+        <class name="Core.Struct.CalculadoraStruct" filename="C:\Source\TDD\CShp_UnitTestMoq\Core\Struct\CalculadoraStruct.cs" line-rate="0.571428571428571" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_operacao" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="60" branch="false" />
+              </lines>
+            </method>
+            <method name="op_Implicit" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+                <line number="7" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="op_Implicit" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="15" branch="false" />
+                <line number="12" hits="15" branch="false" />
+                <line number="13" hits="15" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="60" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="11" hits="15" branch="false" />
+            <line number="12" hits="15" branch="false" />
+            <line number="13" hits="15" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UnitTest" line-rate="0.964285714285714" branch-rate="0.75" complexity="6">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\Wellington\.nuget\packages\microsoft.net.test.sdk\17.5.0-preview-20221003-04\buildTransitive\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="CShp_XUnitTest.CalculadoraTest" filename="C:\Source\TDD\CShp_UnitTestMoq\UnitTest\CalculadoraTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Operacao_Dois_Numeros" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="5" branch="false" />
+                <line number="19" hits="5" branch="false" />
+                <line number="22" hits="5" branch="false" />
+                <line number="25" hits="5" branch="false" />
+                <line number="26" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="5" branch="false" />
+            <line number="19" hits="5" branch="false" />
+            <line number="22" hits="5" branch="false" />
+            <line number="25" hits="5" branch="false" />
+            <line number="26" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="UnitTest.MaquinaCalculadoraTest" filename="C:\Source\TDD\CShp_UnitTestMoq\UnitTest\MaquinaCalculadoraTest.cs" line-rate="1" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="Validade_Operacoes" signature="(...)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="21" hits="5" branch="false" />
+                <line number="23" hits="5" branch="false" />
+                <line number="24" hits="5" branch="false" />
+                <line number="25" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+                <line number="30" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+                <line number="34" hits="5" branch="false" />
+                <line number="36" hits="5" branch="true" condition-coverage="50% (1/2)" />
+                <line number="37" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="Operacao_Dois_Numeros_AutoMock" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="46" hits="5" branch="false" />
+                <line number="48" hits="5" branch="false" />
+                <line number="49" hits="5" branch="false" />
+                <line number="51" hits="5" branch="false" />
+                <line number="52" hits="5" branch="false" />
+                <line number="53" hits="5" branch="false" />
+                <line number="56" hits="5" branch="false" />
+                <line number="59" hits="5" branch="false" />
+                <line number="60" hits="5" branch="false" />
+                <line number="62" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="63" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="5" branch="false" />
+            <line number="23" hits="5" branch="false" />
+            <line number="24" hits="5" branch="false" />
+            <line number="25" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="30" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+            <line number="34" hits="5" branch="false" />
+            <line number="36" hits="5" branch="true" condition-coverage="50% (1/2)" />
+            <line number="37" hits="5" branch="false" />
+            <line number="46" hits="5" branch="false" />
+            <line number="48" hits="5" branch="false" />
+            <line number="49" hits="5" branch="false" />
+            <line number="51" hits="5" branch="false" />
+            <line number="52" hits="5" branch="false" />
+            <line number="53" hits="5" branch="false" />
+            <line number="56" hits="5" branch="false" />
+            <line number="59" hits="5" branch="false" />
+            <line number="60" hits="5" branch="false" />
+            <line number="62" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="63" hits="5" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
